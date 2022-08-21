@@ -9,3 +9,11 @@ from six.moves import urllib
 import tensorflow.compat.v2.feature_column as fc
 
 import tensorflow as tf
+
+
+# Load dataset.
+dftrain = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.csv')  # training data
+# csv-comma separated values
+dfeval = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/eval.csv')  # testing data
+y_train = dftrain.pop('survived')
+y_eval = dfeval.pop('survived')
