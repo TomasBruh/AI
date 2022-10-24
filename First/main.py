@@ -1,3 +1,5 @@
+# Per senas tensorflow naudojamas šitam mokyme, net nebeduoda tokios atsisiųsti
+
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import numpy as np
@@ -23,4 +25,3 @@ y_eval = df_eval.pop('survived')
 # df_train.age.hist(bins=20)
 # df_train.sex.value_counts().plot(kind='bar')
 # plt.show()  # show the plot
-fc
