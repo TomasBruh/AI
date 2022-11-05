@@ -1,7 +1,7 @@
 import numpy as np
 
 x_train = np.array([1.0, 2.0, 3.0, 4.0])
-y_train = np.array([200.0, 300.0, 700.0, 800.0])
+y_train = np.array([200.0, 100.0, 200.0, 800.0])
 b = 0
 
 
@@ -29,3 +29,5 @@ while not_smallest_it_can_be:
     answer = function(x)
     if answer == 0:
         not_smallest_it_can_be = False
+print(x)
+# pretty sure this doesn't work

@@ -44,7 +44,7 @@ def compute_model_output(x, w, b):
     return f_wb
 
 
-tmp_f_wb = compute_model_output(x_train, w, b,)
+tmp_f_wb = compute_model_output(x_train, w, b)
 
 # Plot our model prediction
 plt.plot(x_train, tmp_f_wb, c='b', label='Our Prediction')
@@ -60,3 +60,5 @@ plt.ylabel('Price (in 1000s of dollars)')
 plt.xlabel('Size (1000 sqft)')
 plt.legend()
 plt.show()
+
+
